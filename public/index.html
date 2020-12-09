@@ -5,6 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -24,10 +25,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Material Room</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r122/three.js"></script>
+        <script src="https://threejs.org/build/three.min.js"></script>
+        <script src="../src/obj.js"></script>
+        <script src="../src/mtl.js"></script>
+        <script src="../src/OrbitControls.js" type="module"></script>
+        <!-- For 3D animations -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="../src/main.js" type="module"></script>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
